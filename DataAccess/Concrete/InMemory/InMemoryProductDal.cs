@@ -30,7 +30,7 @@ namespace DataAccess.Concrete.InMemory
 
         public void Delete(Product product)
         {
-            //LİNQ - Languagr Integrated Query
+            //LİNQ - Language Integrated Query
             //Lambda =>
             Product productToDelete =_products.SingleOrDefault(p => product.ProductId == p.ProductId);
 
